@@ -1,0 +1,50 @@
+struct Family
+{
+char personname[50];
+char gender[50];
+char fathername[50];
+char mothername[50];
+char name[50]="Agilan";
+};
+int main()
+{
+int i=0,n=5,;
+struct Family family[n];
+family[0].personname="Ram";
+family[0].gener="Male";
+family[0].fathername="Ramesh";
+family[0].mothername="Revathy";
+
+family[1].personname="Bavana";
+family[1].gener="Female";
+family[1].fathername="Ramesh";
+family[1].mothername="Revathy";
+
+family[2].personname="Agilan";
+family[2].gener="Male";
+family[2].fathername="Ram";
+family[2].mothername="Dharshini";
+
+family[3].personname="Yamini";
+family[3].gener="Female";
+family[3].fathername="Elangovan";
+family[3].mothername="Bavana";
+
+family[4].personname="Meghana";
+family[4].gener="Female";
+family[4].fathername="Elangovan";
+family[4].mothername="Bavana";
+
+printf("Family Information\n");
+for(i=0;i<n;i++)
+{
+Printf("\t %s,%s,%s,%s \n",family[i].personname,family[i].gender,family[i].fathername,family[i].mothername );
+}
+printf("Person name %s",name);
+printf("Yamini \t Megala");
+
+
+
+
+
+
