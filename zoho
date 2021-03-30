@@ -42,6 +42,7 @@ Printf("\t %s,%s,%s,%s \n",family[i].personname,family[i].gender,family[i].fathe
 }
 printf("Person name %s",name);
 printf("Yamini \t Megala");
+}
 
 
 
